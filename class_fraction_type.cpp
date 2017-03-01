@@ -7,7 +7,6 @@ class FRACTION_TYPE
 {
 	int iDen;
 	int iNum;
-	
 	public:
 	void fnSet_Fraction(int,int);
 	void fnShow_Fraction();
@@ -22,7 +21,7 @@ void FRACTION_TYPE::fnSet_Fraction(int iN,int iD)
 
 void FRACTION_TYPE::fnShow_Fraction()
 {
-cout<<"The fraction is "<<iNum<<"/"<<iDen;
+	cout<<"The fraction is "<<iNum<<"/"<<iDen;
 }
 
 void FRACTION_TYPE::fnAdd_Fraction(FRACTION_TYPE f2)
@@ -68,4 +67,3 @@ int gcd(int m,int n)
 	else 
 	return(gcd,(n,m%n));
 }
-
