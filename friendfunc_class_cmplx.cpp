@@ -29,11 +29,9 @@ void addComplex(Complex a,Complex b)
 int main()
 {
 	Complex c1,c2;
-	
 	c1.getData();
 	c2.getData();
 	addComplex(c1,c2);
-	
 	cin.get();
 	return 0;
 }
